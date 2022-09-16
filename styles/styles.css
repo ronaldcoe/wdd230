@@ -1,0 +1,102 @@
+* {
+    margin:0 auto;
+}
+body {
+    background-color: #cadfe2;
+    
+}
+h1 {
+    color: #1d5066;
+    font-size: 90px;
+    font-family: 'Baskerville Old Face';
+    font-weight: 500;
+}
+h2 {
+    color: #1d5066;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.container {
+    width: 900px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+}
+.container img {
+    width:300px;
+}
+
+.btn {
+    width: 500px;
+    margin-left: 0;
+    padding: 10px;
+    font-family: 'Century Gothic';
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #1d5066;
+    background-color: #d3f1f3;
+    -webkit-box-shadow: 2px 3px 0px 0px rgba(0,0,0,0.33); 
+    box-shadow: 2px 3px 0px 0px rgba(0,0,0,0.33);
+}
+
+.btn-1:hover{
+    background-color: #1d5066;
+    color: #cadfe2;
+    cursor: pointer;
+}
+
+section {
+    overflow-y:scroll;
+    height: 240px;
+    padding-right: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1d5066; 
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.social-media {
+    position: fixed;
+    height:100px !important; 
+    left: 20px;
+    top:20px;
+}
+.social-media a {
+    padding-right: 10px;
+}
+footer {
+    width: 100vh;
+    text-align: center;
+    color: #1d5066;
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    
+}
