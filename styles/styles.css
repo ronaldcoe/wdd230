@@ -112,7 +112,7 @@ footer {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         width: 90%;
-        
+        margin-top: 100px;
         height: 100vh;
     }
     .left {
@@ -127,5 +127,21 @@ footer {
     }
     .social-media {
         height: fit-content;
+    }
+
+    .btn {
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .right section {
+        margin-top: 40px;
     }
 }
