@@ -3,6 +3,7 @@
 }
 body {
     background-color: #cadfe2;
+    height: 100vh;
     
 }
 h1 {
@@ -88,13 +89,13 @@ section {
 }
 footer {
     width: 100vh;
-    text-align: center;
+    position: fixed;
     color: #1d5066;
     font-size: 12px;
     font-family: 'Century Gothic';
     font-weight: 500;
     margin: 0 auto;
-    position: fixed;
+   
     bottom: 20px;
     right: 20px;
     text-align: right;
@@ -102,12 +103,17 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+
+    body {
+        height: 100vh;
+    }
     .container{
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         margin-top: 100px;
         width: 100vh;
+        height: fit-content;
     }
     .left {
         grid-column: 1/3;
