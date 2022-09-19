@@ -151,7 +151,7 @@ footer {
 @media only screen and (max-width: 900px) {
 
     body {
-        height: 165vh;
+        height: 200vh;
     }
     .container{
         display: grid;
@@ -170,8 +170,7 @@ footer {
     footer {
         width: 100vh;
         position: absolute;
-        bottom: -470px;
-         ;
+        bottom: -600px;
     }
     .social-media {
         height: fit-content;
