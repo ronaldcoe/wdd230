@@ -10,6 +10,9 @@
 * {
     margin:0 auto;
 }
+a {
+    color: var(--main);
+}
 a:visited {
     color: var(--main);
 }
