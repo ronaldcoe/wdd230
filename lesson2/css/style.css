@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/* 94C9A9 FF220C */
+h1,h2,h3 {
+    
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-size: 30px;
+
+}
+#title1 {
+    background-color: #94C9A9;
+    border-radius: 20px 20px 0px 0px;
+}
+#title2 {
+    background-color: #e8ae68;
+    border-radius: 20px 20px 0px 0px;
+
+}
+#title3 {
+    background-color: #FF220C;
+    border-radius: 20px 20px 0px 0px;
+}
+#title2, #title1, #title3 {
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+   
+}
+a:hover {
+    color: bisque;
+}
+.link {
+    background-color: #FF8811;
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#content {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+img {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+.card {
+    text-align: center;
+    box-shadow: 7px 6px 0px -2px rgba(0,0,0,0.7);
+    border-radius: 20px 20px 0px 0px;
+}

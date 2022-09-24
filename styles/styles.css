@@ -19,6 +19,7 @@ a:visited {
 body {
     background-color: #cadfe2;
     height: 100vh;
+    overflow-y: hidden;
     
 }
 .wrap {
@@ -43,7 +44,7 @@ h2 {
 }
 .container {
     width: 900px;
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 40% 1fr;
     align-items: center;
@@ -95,7 +96,7 @@ h2 {
 .assignments {
     overflow-y:scroll;
     overflow-x: hidden;
-    height: 240px;
+    max-height: 240px;
     padding-right: 20px;
 }
 
@@ -152,6 +153,7 @@ footer {
 
     body {
         height: 200vh;
+        overflow-y: scroll;
     }
     .container{
         display: grid;
