@@ -19,6 +19,8 @@ p {
     font-family: 'Montserrat', 'sans-serif';
     text-align: left;
     padding: 20px;
+   
+    
 }
 
 h2 {
@@ -78,6 +80,11 @@ img {
     background-color: white;
     
 }
+.description {
+    
+    border-top: solid;
+    border-width: .2px;
+}
 footer{
     text-align: center;
     font-family: 'Montserrat', 'sans-serif';
@@ -101,5 +108,8 @@ footer{
 @media only screen and (max-width: 600px) {
     #content {
         grid-template-columns: 1fr;
+    }
+    .third_card {
+        grid-column:auto ;
     }
 }
