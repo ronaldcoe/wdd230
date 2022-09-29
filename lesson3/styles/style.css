@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Oswald:wght@700&display=swap');
+:root {
+    --blue:#007C92;
+    --red:#D62828;
+    --yellow:#EAE2B7;
+    --brown:#342D14;
+
+    --red-logo:invert(13%) sepia(99%) saturate(6998%) hue-rotate(1deg) brightness(100%) contrast(93%);
+}
+
+* {
+    margin: 0 auto;
+}
+body {
+    font-family: 'Mukta','Open Sans', sans-serif;
+    color: var(--brown);
+    
+    
+}
+header {
+    height: fit-content;
+}
+#content {
+    max-width: 1000px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    font-family: 'Mukta', sans-serif;
+    padding: 20px;
+    flex-direction: column;
+    background-color: var(--blue);
+
+    color: white;
+    
+}
+nav :hover {
+    background-color: var(--red);
+    cursor: pointer;
+}
+nav a {
+    padding: 16px;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Oswald';
+    background-color: var(--red);
+    color: white;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+   
+
+}
+h2 {
+    font-family: 'Oswald';
+}
+img {
+    width:100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+main section {
+   
+    border: 1px solid var(--red);
+}
+
+section {
+    margin: 20px;
+    padding: 0px 20px 30px;
+}
+#persona p {
+    
+    text-align: left;
+}
+.description {
+    font-size: 12px;
+}
+#p-example {
+    font-size: 12px;
+    text-align: justify;
+}
+li {
+    font-size: 12px;
+    text-align: left;
+}
+#logo {
+    
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 7px;
+
+    
+}
+
+.st0 {
+    filter: invert(13%) sepia(99%) saturate(6998%) hue-rotate(1deg) brightness(100%) contrast(93%);
+}
+
+
+#blue-div {
+    width: 100px;
+    height: 100px;
+    background-color: var(--blue);
+    margin-bottom: 20px;
+}
+#red-div {
+    width: 100px;
+    height: 100px;
+    background-color: var(--red);
+    margin-bottom: 20px;
+}
+
+#yellow-div {
+    width: 100px;
+    height: 100px;
+    background-color: var(--yellow);
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+    nav {
+       
+        flex-direction: row;
+        
+    }
+    main {
+        flex-direction: row;
+    }
+}
