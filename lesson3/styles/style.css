@@ -77,7 +77,7 @@ section {
     margin: 20px;
     padding: 0px 20px 30px;
 }
-#persona p {
+.persona p {
     
     text-align: left;
 }
@@ -127,7 +127,7 @@ li {
     margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 970px) {
     #content {
         max-width: 90%;
     }
