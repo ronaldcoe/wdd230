@@ -1,0 +1,340 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+
+* {
+    margin: 0 auto;
+   
+
+}
+
+h3, p {
+    font-family: var(--paragraphFont);
+    color: white;
+    padding: 5px;
+}
+.placeHolder {
+    border: 1px solid rgb(70, 70, 70);
+    background-color: var(--blue);
+    width:100%;
+    min-height: 300px;
+    font-family: var(--paragraphFont);
+    box-sizing: border-box;
+    padding: 20px;
+    color: var(--yellow);
+}
+.spotlightCont {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.spotlight {
+    border: 1px solid rgb(70, 70, 70);
+    background-color: var(--blue);
+    height: 100%;
+    width: 100%;
+    font-family: var(--paragraphFont);
+    padding: 20px;
+    box-sizing: border-box;
+  
+}
+.spot3 {
+    display: none;
+}
+:root {
+    --headerFont: "PT Sans", sans-serif;
+    --paragraphFont: "PT Sans", sans-serif;
+    --blue: #007C92;
+    --red: #D62828;
+    --yellow: #EAE2B7;
+}
+
+main {
+    box-sizing: border-box;
+    display: grid;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.date {
+    font-family: var(--paragraphFont);
+    grid-column: 1/4;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    display: grid;
+   
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--red);
+   
+    
+    
+}
+
+.nav  {
+    grid-column: 1/4;
+    cursor: pointer;
+    
+    width: -webkit-fill-available;
+
+   
+   
+    
+    
+  
+}
+.nav_content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    width: 100%;
+}
+.nav a {
+
+    padding: 15px;
+    font-family: var(--paragraphFont);
+    color: white;
+  
+   
+   
+    
+    
+}
+.logo {
+   
+    margin: 0;
+    width: 50px;
+    padding: 20px;
+}
+.social {
+    color: white;
+    font-size: 1.4rem;
+}
+.menu {
+    justify-content: right;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    margin: 0;
+    justify-self: right;
+    padding: 20px;
+
+}
+.hamburger {
+    margin: 0;
+}
+.hamburger .menu {
+    text-align: right;
+    position: relative;
+    float: right;
+}
+
+footer {
+    background-color: var(--red);
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.siteinfo {
+    font-family:  var(--paragraphFont);
+    color: white;
+    border-top: 1px solid white;
+}
+
+
+.join {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:900px) {
+ 
+    main {
+        grid-template-columns: 60% 1fr;
+        gap: 15px;
+      
+    }
+
+    .hero {
+        grid-column: 1/3;
+        height: 200px;
+    }
+
+    .news {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .spotlightCont {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        grid-template-rows: 1fr;
+    }
+    
+    .join {
+        display: block;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+    .logoAdress {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+ 
+
+
+    .logoAdress .logo {
+        width: 100px;
+    }
+
+    .siteinfo {
+        grid-column: 1/3;
+        width: -webkit-fill-available;
+    }
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+    .logoAdress {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+ 
+
+
+    .logoAdress .logo {
+        width: 100px;
+    }
+
+    .siteinfo {
+        margin: 0;
+        grid-column: 1/3;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+    }
+    .siteinfo p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media  screen and (min-width:1100px) {
+    main {
+        grid-template-columns: 20% 1fr 20%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        height: 100%;
+    }
+
+    .event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+    }
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .spotlightCont {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .spot3 {
+        display: block;
+    }
+    .hamburger {
+        display: none;
+        
+    }
+
+    .social {
+        margin: 0;
+        grid-column: 3/4;
+        justify-self: right;
+        padding-right: 20px;
+    }
+    .nav {
+        display: block !important; 
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+        
+    }
+    
+    .nav_content {
+        flex-direction: row;
+    }
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+    .logoAdress {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+ 
+
+
+    .logoAdress .logo {
+        width: 100px;
+    }
+
+    .siteinfo {
+        margin: 0;
+        grid-column: 1/3;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+    }
+    .siteinfo p {
+        margin: 0;
+    }
+
+}
