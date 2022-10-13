@@ -10,11 +10,15 @@ button.addEventListener("click", ()=> {
     let del = document.createElement("button");
     del.className = "delete";
     del.textContent = "X"
-    li.appendChild(document.createTextNode(chapter));
-    document.querySelector("#chapter").value = ""
-    li.appendChild(del);
-    
-    list.appendChild(li)
+    if (chapter != "") {
+        li.appendChild(document.createTextNode(chapter));
+        document.querySelector("#chapter").value = ""
+        li.appendChild(del);
+        
+        list.appendChild(li)
+    } else {
+        alert("You need to add a chapter")
+    }
     
     del.addEventListener("click", ()=> {
         list.removeChild(li)
