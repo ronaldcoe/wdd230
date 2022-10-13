@@ -14,9 +14,7 @@ h1 {
 }
 body {
     background-color: var(--main_color);
-    display: flex;
-    align-items: center;
-    height: 100vh;
+    
 }
 
 .container {
@@ -24,7 +22,7 @@ body {
     padding: 20px;
     background-color: var(--main_color);
     box-shadow: -3px -3px 9px #ffffff, 3px 3px 5px #ceced1;
-    max-width: 350px;
+    max-width: 400px;
     height: fit-content;
     border-radius: 10px;
 }
@@ -36,7 +34,7 @@ input {
     border-radius: 5px;
     border: 1px solid #ecf0f3;
     box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
-    
+    margin-right: 20px;
 }
 
 input:focus {
@@ -54,7 +52,8 @@ button {
 
 .header {
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
+
 }
 
 button:active {
@@ -85,5 +84,21 @@ ul li {
     background-color: #FFADAD;
     /* border: 1px solid #FFADAD; */
     
+    
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+ 
+    align-items: center;
+    height: 100vh;
+}
+
+.update {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
     
 }

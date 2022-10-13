@@ -21,3 +21,12 @@ button.addEventListener("click", ()=> {
     })
 
 })
+
+
+
+
+let date = new Date()
+console.log(date)
+
+let lastUpdate = document.lastModified;
+document.querySelector('.update').innerHTML = `Last Updated ${lastUpdate} | ©️ ${date.getFullYear()} Ronald Coello`
