@@ -30,3 +30,14 @@ document.querySelector('.date').innerHTML = `${dayWeek[date.getDay()]}, ${date.g
 
 
 document.querySelector('.copyright').innerHTML = `©️${date.getFullYear()} The Seattle Chamber`
+
+
+
+// Add the title based of the day
+let titleEvent = document.querySelector(".title_event")
+if (date.getDay() == 1 || date.getDay() == 4) {
+    titleEvent.textContent = "Come join us for the chamber meet and greet "
+}
+else {
+    titleEvent.textContent = "Check what's happening in Seattle"
+}
