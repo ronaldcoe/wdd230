@@ -210,17 +210,18 @@ header {
 .news {
     display: flex;
     height: fit-content;
+    flex-direction: column;
    
 }
 .news img {
     height: 150px;
-    width: 150px;
+    width: 100%;
     object-fit: cover;
 }
 .news div {
     padding: 10px;
     border-left: 6px solid var(--blue);
-    margin-left: 20px;
+    
 }
 .news h1 {
     color: var(--blue);
@@ -315,9 +316,14 @@ footer p {
     }
     
     .join {
-        display: block;
+        display: flex;
         grid-column: 1/3;
         grid-row: 4;
+        align-items: center;
+    }
+    .join img {
+        height: 100%;
+        width: 50%;
     }
 
     footer {
@@ -402,8 +408,13 @@ footer p {
     .join {
         grid-column: 1/2;
         grid-row: 3/4;
+        flex-direction: column;
+        
     }
-
+    .join img {
+        height: 150px;
+        width: 100%;
+    }
     .news {
         grid-column: 2/3;
         grid-row: 3/4;
