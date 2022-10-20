@@ -154,7 +154,7 @@ header {
 .menu {
     justify-content: right;
     cursor: pointer;
-    color: white;
+    color: var(--blue);
     position: relative;
     margin: 0;
     justify-self: right;
