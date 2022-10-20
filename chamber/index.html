@@ -14,7 +14,7 @@
 <body>
     <header>
        
-            <img class="logo" src="./images/logo.svg" alt="logo"/>
+            <img class="logo" src="./images/logo.webp" alt="logo"/>
             <div class="social">
                 <i class="fa-brands fa-square-facebook"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -38,17 +38,34 @@
     </header>
     <main>
         <section class="hero placeHolder">
-            
-            <div>
+            <!-- <img src="./images/small.jpg" alt="seattle"/> -->
+           <picture>
+                <source media="(min-width:1100px)" srcset="./images/large.jpg">
+                <source media="(min-width:900px)" srcset="./images/medium.jpg">
+                <img src="./images/small.jpg" alt="seattle"/>
+            </picture>
+            <!-- <div>
                 <h1>Welcome to Seattle</h1>
                 <button>Join the chamber</button>
-            </div>
+            </div> -->
         </section>
         <section class="event placeHolder">
             <h1 class="title_event"></h1>
             <button>More info</button>
         </section>
         <section class="weather placeHolder">
+            <h2>Weather</h2>
+            <img class="imgweather"/>
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <div class="windspeed">
+                <p>Windspeed</p>
+                <p class="windvalue"></p>
+            </div>
+            <div>
+                <p>Windchill</p>
+                <p class="windchill"></p>
+            </div>
             
         </section>
         <section class="news">
@@ -116,6 +133,7 @@
 
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="https://kit.fontawesome.com/79df2091f5.js" crossorigin="anonymous"></script>
 </body>
 </html>
