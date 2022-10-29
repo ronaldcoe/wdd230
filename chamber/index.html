@@ -14,7 +14,9 @@
 <body>
     <header>
        
-            <img class="logo" src="./images/logo.webp" alt="logo"/>
+        <div class="nav_container">
+            <!-- <img class="logo" src="./images/logo.svg" alt="logo"/> -->
+            <p class="logo">Seattle</p>
             <div class="social">
                 <i class="fa-brands fa-square-facebook"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -26,22 +28,24 @@
             </div>
             <div class="nav">
                 <div class="nav_content">
-                    <a>Events</a>
-                    <a>Business</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./discover.html">Discover</a>
                     <a>Weather</a>
                     <a>About us</a>
                 </div>
             </div>
-            <div class="date"></div>
+            
+        </div>
             
        
     </header>
+    <div class="date"></div>
     <main>
         <section class="hero placeHolder">
            <picture>
-                <source media="(min-width:1100px)" srcset="./images/large.jpg">
-                <source media="(min-width:900px)" srcset="./images/medium.jpg">
-                <img src="./images/small.jpg" alt="seattle"/>
+                <source media="(min-width:1100px)" srcset="./images/hero_large.png">
+                <source media="(min-width:900px)" srcset="./images/hero_medium.png">
+                <img src="./images/hero_small.png" alt="seattle"/>
             </picture>
             <div class="hero_message">
                 <h1>Welcome to Seattle</h1>
@@ -113,7 +117,8 @@
     </main>
     <footer>
         <section class="logoAdress">
-            <img class="logo" src="./images/logo.svg" alt="logo"/>
+            <!-- <img class="logo" src="./images/logo.svg" alt="logo"/> -->
+            <p class="logo">Seattle</p>
             <div>
                 <h3>Seattle Chamber Site</h3>
                 <p>291 E 7TH S</p>
@@ -131,8 +136,10 @@
         </section>
 
     </footer>
-    <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
+    
+    <script src="./js/windchill.js"></script>
     <script src="https://kit.fontawesome.com/79df2091f5.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
