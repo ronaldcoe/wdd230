@@ -509,10 +509,15 @@ footer p {
         margin: 0;
     }
     .discover_image_container:hover {
-        transform: scale(110%);
+        transform: scale(1.1);
         transition: transform 330ms ease-in-out;
+        z-index: 1;
     }
-    
+    .discover_image_container:not(hover) {
+        transform: scale(1);
+        transition: transform 330ms ease-in-out;
+        
+    }
 }
 
 
@@ -618,11 +623,15 @@ footer p {
         margin: 0;
     }
     .discover_image_container:hover {
-        transform: scale(110%);
+        transform: scale(1.1);
         transition: transform 330ms ease-in-out;
         z-index: 1;
     }
-     
+    .discover_image_container:not(hover) {
+        transform: scale(1);
+        transition: transform 330ms ease-in-out;
+        
+    }
     
 
     .galery_container {
