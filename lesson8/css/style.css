@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+}
+
+table {
+    /* border: 1px solid rgb(201, 201, 201); */
+    border-collapse:collapse;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+
+}
+td {
+    border: 1px  solid rgb(201, 201, 201);
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    color: rgb(56, 56, 56);
+}
+th {
+    padding: 10px;
+}
+
+table {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.75);
+
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(odd) {
+    background-color: rgb(231, 231, 231);
+}
+th:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+th[scope="col"] {
+    background-color: rgb(133, 92, 247);
+    color: white;
+    border-radius: 0px;
+}
+tr:nth-child(6) td:nth-child(3) {
+    background-color: rgb(133, 92, 247);
+    color: white;
+}
+
+tr td:nth-child(1) {
+    border-right: 1px  solid rgb(201, 201, 201);
+}
+
+tfoot tr td {
+    background-color: rgb(133, 92, 247);
+    color: white;
+    font-size: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 0px;
+    border-right: 0px !important;
+}
+
+tr td:nth-child(2) {
+    border-right: 1px  solid rgb(201, 201, 201);   
+}
+tr:nth-child(7) td:nth-child(2) {
+    border-right: none;
+}
