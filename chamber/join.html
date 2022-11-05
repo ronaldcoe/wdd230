@@ -43,10 +43,10 @@
         
         <form method="get" action="thankyou.html">
             <h1>Join The Chamber</h1>
-            <input type="text" id="dateform">
+            <input type="hidden" id="dateform">
             <label class="top">First Name:*<input type="text" name="fname" required></label>
             <label class="top">Last Name:*<input type="text" name="lname" required></label>
-            <label class="top">Business Position Title:<input type="text" name="busineesPosition"></label>
+            <label class="top">Business Position Title:<input type="text" name="busineesPosition" pattern="[- A-Za-z]+" required minlength="7"></label>
             <label class="top">Email:*<input type="email" name="email" placeholder="example@mail.com" required></label>
             <label class="top">Cell phone:*<input type="tel" name="tel" required></label>
             <label class="top">Business Name:*<input type="text" name="busineesName" required></label>
