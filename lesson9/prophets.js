@@ -9,6 +9,7 @@ function displayProphets(prophets) {
 
     h2.textContent = prophets.name + " " + prophets.lastname;
     img.src= prophets.imageurl;
+    img.alt= "prophet"
     p.textContent = `Date of birth ${prophets.birthdate}`
     p2.textContent = `Place of birth ${prophets.birthplace}`
     card.appendChild(h2);
