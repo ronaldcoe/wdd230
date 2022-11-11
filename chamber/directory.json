@@ -1,0 +1,88 @@
+{
+    "directory": [
+        {
+            "name":"Amazon",
+            "address":"440 Terry Ave N, Seattle, WA 98109",
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png",
+            "phone":"(206) 266-1000",
+            "web":"https://www.amazon.com/"
+        },
+        {
+            "name":"American Airlines",
+            "address":"17801 International Blvd, Seattle, WA 98158",
+            "logo":"https://s21.q4cdn.com/616071541/files/multimedia-gallery/assets/Logos/american-airlines/THUMB-aa_aa__ahz_4cp_grd_pos.png",
+            "phone":"(800) 433-7300",
+            "web":"https://www.aa.com/homePage.do"
+        },
+        {
+            "name":"American Cancer Society",
+            "address":"5601 6th Ave S Ste 491, Seattle, WA 98108",
+            "logo":"https://www.cancer.org/content/dam/cancer-org/images/logos/acs/acs-logo-new.svg",
+            "phone":"(800) 227-2345",
+            "web":"https://www.cancer.org/about-us/local/washington.html"
+        },
+        {
+            "name":"AT&T",
+            "address":"4730 42nd Ave SW Suite 22, Seattle, WA 98116",
+            "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/AT%26T_logo_2016.svg/2560px-AT%26T_logo_2016.svg.png",
+            "phone":"(206) 935-4878",
+            "web":"https://www.att.com/"
+        },
+        {
+            "name":"Atlas Networks",
+            "address":"2700 4th Ave S. Suite C Seattle, WA 98134",
+            "logo":"https://gigabit.io/img/logo.svg",
+            "phone":"(206) 266-1000",
+            "web":"https://gigabit.io/"
+        },
+        {
+            "name":"Avalara",
+            "address":"255 S King St #1800, Seattle, WA 98104",
+            "logo":"https://www.avalara.com/etc/designs/avalara/images/corporate_home_2_u15612.svg",
+            "phone":"(877) 759-6520",
+            "web":"https://www.avalara.com/"
+        },
+        {
+            "name":"Avant Physical Therapy",
+            "address":"2901 3rd Ave #520, Seattle, WA 98121",
+            "logo":"https://www.avantphysicaltherapy.com/wp-content/uploads/2022/01/avantphysicaltherapy-header-logo.svg",
+            "phone":"(206) 686-4073",
+            "web":"https://www.avantphysicaltherapy.com/"
+        },
+        {
+            "name":"Virginia Mason Franciscan Health",
+            "address":"2720 E Madison St, Seattle, WA 98112",
+            "logo":"https://www.vmfh.org/content/dam/vmfhorg/home-page/images/VMFH-Color-icon.svg",
+            "phone":"(206) 322-5300",
+            "web":"https://www.vmfh.org/"
+        },
+        {
+            "name":"Blueprint Registry",
+            "address":"111 S Jackson St, Seattle, WA 98104",
+            "logo":"https://www.blueprintregistry.com/assets/aa491d03.svg",
+            "phone":"(855) 754-5620",
+            "web":"https://www.blueprintregistry.com/"
+        },
+        {
+            "name":"BNSF Railway Company",
+            "address":"1000 2nd Ave, Seattle, WA 98104",
+            "logo":"https://www.bnsf.com/bnsf-resources/images/bnsf-logo.png",
+            "phone":"(800) 795-2673",
+            "web":"https://www.bnsf.com/"
+        },
+        {
+            "name":"Boon Boona Coffee",
+            "address":"724 S 3rd St, Renton, WA 98057",
+            "logo":"https://cdn.shopify.com/s/files/1/0426/2422/1345/files/renton_coffee_shop_ab35719b-56c0-47f2-bb0b-9abb9dbbaf3a_410x.png?v=1614329005",
+            "phone":"(425) 496-8618",
+            "web":"https://www.boonboonacoffee.com/"
+        },
+        {
+            "name":"Both Ways Cafe",
+            "address":"4922 S Genesee St, Seattle, WA 98118",
+            "logo":"https://static.wixstatic.com/media/93bdf9_5285fd40c44a41f3ad1ac2a557bd92f0.jpg/v1/fill/w_45,h_85,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/93bdf9_5285fd40c44a41f3ad1ac2a557bd92f0.jpg",
+            "phone":"(206) 722-5799",
+            "web":"https://www.bothwayscafe.com/"
+        }
+    ]
+}

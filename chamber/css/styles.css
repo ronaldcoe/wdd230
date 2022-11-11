@@ -18,7 +18,7 @@ h1 {
     color: black;
     font-family: var(--headerFont);
 }
-h2, h3, p {
+h2, h3, p, a {
     font-family: var(--paragraphFont);
     color: rgb(51, 51, 51);
     padding: 5px;
@@ -414,7 +414,83 @@ footer p {
     }
 }
 
+/* -------------------------- DIRECTORY ------------------------------------ */
 
+#directory {
+    max-width: 1600px;
+}
+
+.directory_btn {
+  
+    text-align: center;
+}
+
+#directory_content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+#directory_content  section { 
+    justify-self: center;
+    width: 300px;
+    
+    -webkit-box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.48);
+    box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.48);
+    padding: 20px;
+    border-radius: 5px;
+}
+#directory_content * {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+
+}
+#directory_content img {
+    width:200px;
+    height: 100px;
+    margin: 10px auto;
+    object-fit: contain;
+}
+.table {
+    margin-top: 40px;
+    max-width: 1100px;
+
+}
+td {
+    font-family: var(--paragraphFont);
+}
+table {
+    display: none;
+    margin: 0 auto;
+}
+table tr {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 10px;
+}
+table tr:nth-child(odd) {
+    background-color: #007c9240;
+    
+}
+table tr td:nth-child(3) {
+    text-align: left;
+}
+table tr td {
+    padding: 5px;
+    text-align: left;
+    margin:0px;
+}
+.button_dash, .button_table {
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    border:2px solid #007C92;
+    border-radius: 5px;
+    color: #007C92;
+    cursor: pointer;
+}
 /* --------------------------- JOIN PAGE ---------------------------- */
 
 .joinCont {
@@ -665,6 +741,22 @@ form input:required:valid {
     form {
         width: 500px;
     }
+    #directory_content {
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    table {
+        display: block;
+    }
+    table tr {
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 1fr;
+        padding: 20px;
+        justify-content: left;
+    }
+    table tr td:nth-child(3) {
+        text-align: center;
+    }
 }
 
 
@@ -807,4 +899,11 @@ form input:required:valid {
         border-radius: 0px 0px 10px 10px;
     }
 
+    #directory_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    table {
+        display: none;
+    }
 }
