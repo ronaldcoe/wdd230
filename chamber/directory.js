@@ -1,4 +1,4 @@
-const requestURL = "./directory.json";
+const requestURL = "https://ronaldcoe.github.io/wdd230/chamber/directory.json";
 
 
 
