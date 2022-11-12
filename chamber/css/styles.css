@@ -461,7 +461,7 @@ footer p {
 td {
     font-family: var(--paragraphFont);
 }
-table {
+.table {
     display: none;
     margin: 0 auto;
 }
@@ -745,7 +745,7 @@ form input:required:valid {
         display: none;
         grid-template-columns: repeat(2, 1fr);
     }
-    table {
+    .table {
         display: block;
     }
     table tr {
@@ -903,7 +903,7 @@ form input:required:valid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    table {
+    .table {
         display: none;
     }
 }

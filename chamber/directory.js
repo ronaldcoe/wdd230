@@ -8,7 +8,7 @@ function changeDisplayDashboard() {
     let directoryContent = document.querySelector("#directory_content")
     let style = getComputedStyle(directoryContent)
     if (style.display == "none") {
-        document.querySelector("table").style.display = "none"
+        document.querySelector(".table").style.display = "none"
         document.querySelector("#directory_content").style.display = "grid"
         document.querySelector(".button_dash").style.backgroundColor = "#abedf8";
         document.querySelector(".button_table").style.backgroundColor = "white"
@@ -18,10 +18,10 @@ function changeDisplayDashboard() {
 }
 
 function changeDisplayTable() {
-    let table = document.querySelector("table")
+    let table = document.querySelector(".table")
     let style = getComputedStyle(table)
     if(style.display == "none") {
-        document.querySelector("table").style.display= "block";
+        document.querySelector(".table").style.display= "block";
         document.querySelector("#directory_content").style.display = "none"
         document.querySelector(".button_dash").style.backgroundColor = "white";
         document.querySelector(".button_table").style.backgroundColor = "#abedf8"
@@ -89,6 +89,6 @@ async function getDirectory(requestURL) {
     }
 }
 
-
-
 getDirectory(requestURL)
+
+window.onresize = changeDefaultViewMedium
