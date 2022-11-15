@@ -47,6 +47,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--title-color);
 }
 .card {
     width: 100%;
@@ -81,7 +82,7 @@ body {
 }
 h1{
     font-family: 'Noto Serif Oriya', serif;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--title-color);
 }
 h3 {
@@ -142,4 +143,46 @@ a {
 a:hover {
     text-decoration: underline;
     color: var(--title-color);
+}
+.source {
+    font-size: 10px;
+
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.YouTube {
+    background-color: rgb(202, 0, 0);
+}
+.Google {
+    background-color: #3776E0;
+}
+.Yahoo {
+    background-color: #5B01C6;
+}
+.Reuters {
+    background-color: #E06018;
+}
+.Daily {
+    background-color: #0032AA;
+}
+span {
+    background-color: #00C58A;
+    margin-top: 20px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   
+}
+.logo h1 {
+    font-size: 35px;
+}
+i {
+    color: var(--title-color);
+    padding-top: 5px;
+    margin-right: 10px;
+
 }
