@@ -71,6 +71,7 @@ nav {
 .navLinks {
     display: flex;
     flex-direction: row;
+    display: none;
 }
 .navLinks li {
     list-style: none;
