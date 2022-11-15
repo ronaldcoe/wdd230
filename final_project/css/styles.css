@@ -116,9 +116,7 @@ p {
     height: calc(100vh - 200px);
     
 }
-.sectionNews {
-    
-}
+
 .newsCategory {
     font-size: 18px;
     color:white;
@@ -205,6 +203,12 @@ i {
         grid-template-columns: 1fr 1fr 1fr;
         height: calc(100vh - 200px);
         gap: 20px;
+    }
+    .sectionNews {
+        height: 100%;
+    }
+    .navLinks {
+        display: flex;
     }
    
 }
