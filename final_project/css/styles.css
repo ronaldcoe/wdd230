@@ -42,6 +42,16 @@
     
 }
 
+.tech:hover::-webkit-scrollbar-thumb {
+    background: var(--title-color);
+    border-radius: 10px;
+    
+}
+.tech:not(:hover)::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 10px;
+    
+}
 nav {
     display: flex;
     flex-direction: row;
