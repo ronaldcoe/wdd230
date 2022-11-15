@@ -109,13 +109,15 @@ p {
 }
 #sect1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     margin-top: 40px;
     height: calc(100vh - 200px);
     
 }
-
+.sectionNews {
+    
+}
 .newsCategory {
     font-size: 18px;
     color:white;
@@ -132,6 +134,7 @@ p {
     height: auto;
     overflow-y: scroll;
     padding-right: 20px;
+    height: 500px;
 }
 
 #sect1 section img {
@@ -195,4 +198,12 @@ i {
     padding-top: 5px;
     margin-right: 10px;
 
+}
+@media screen and (min-width:900px) {
+    #sect1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: calc(100vh - 200px);
+        gap: 20px;
+    }
+   
 }
