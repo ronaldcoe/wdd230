@@ -136,6 +136,7 @@ p {
     bottom: -5px;
     animation: princemove;
     animation-duration: 7s;
+    animation-timing-function: cubic-bezier();
     animation-iteration-count: infinite;
      
 }
