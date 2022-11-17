@@ -4,41 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title>The Little Prince</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <i class="fa-solid fa-newspaper"></i>
-                <h1>News Portal</h1>
+<body class="home">
+    <div class="background">
+        <div id="container"></div>
+            <div class="content">
+                <nav>
+                    <h1 class="logo">The Little Prince</h1>
+                    <ul>
+                        <a href="./characters.html"><li>Characters</li></a>
+                        <li>Quotes</li>
+                        <li>Art</li>
+                        <li>Book</li>
+                        <li>Characters</li>
+                    </ul>
+                </nav>
+                <div class="quote">
+                    <p>
+                        It is only with the heart that one can see rightly; what is essential is invisible to the eye.
+                    </p>
+                    <button>Get Book</button>
+                </div>
+                <div class="prince">
+                    <img src="./img/prince.png" alt="prince">
+                </div>
             </div>
-            <ul class="navLinks">
-                <li>Home</li>
-                <li>Technology</li>
-                <li>Sports</li>
-                <li>Politics</li>
-                <li>Economics</li>
-            </ul>
-        </nav>
-    </header>
-    <div id="sect1">
-        <section class="top sectionNews">
-            <p class="newsCategory">Top News</p>
-        </section>
-        
-        <section class="business sectionNews">
-            <p class="newsCategory">Business</p>
-
-        </section>
-        <section class="tech sectionNews">
-            <p class="newsCategory">Technology</p>
-
-        </section>
+        </div>
+        <div id="cursor"></div>
     </div>
-  
-    <script src="./scripts.js"></script>
-    <script src="https://kit.fontawesome.com/79df2091f5.js" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
