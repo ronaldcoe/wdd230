@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+:root {
+    --paragraph: 'Roboto Slab', serif;
+}
 * {
     margin: 0;
     box-sizing: border-box;
@@ -44,7 +48,7 @@ a {
     overflow-y : hidden ;
     position: absolute;
     animation-name: move;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier();
     overflow-x: hidden;
@@ -97,7 +101,7 @@ ul {
 ul li {
     color: #9E7F43;
     display: block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--paragraph);
     font-size: 20px;
     font-weight: bold;
     height: 50px;
@@ -111,7 +115,7 @@ ul li:hover {
     
 }
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--paragraph);
     color: #9E7F43;
 }
 
@@ -131,9 +135,9 @@ p {
     right: 0px;
     bottom: -5px;
     animation: princemove;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+     
 }
 
 .prince img {
@@ -142,16 +146,16 @@ p {
 .quote {
     position: absolute;
     left: 20px;
-    top: 300px;
+    top: calc(100vh/3);
 }
 .quote p {
-    font-size: 30px;
+    font-size: 50px;
     width: 600px;
     
 }
 .quote button {
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--paragraph);
     color: white;
     background-color: #9E7F43;
     font-size: 20px;

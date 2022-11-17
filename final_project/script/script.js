@@ -3,7 +3,7 @@ const cursor = document.getElementById('cursor') ;
 var wid = parseFloat(getComputedStyle(container).width) ;
 var hei = parseFloat(getComputedStyle(container).height) ;
 
-var size = (wid * hei) / 6500 ;
+var size = (wid * hei) / 9500 ;
 
 function randomm(min , max){
   return min + Math.random() * ( max  - min )
@@ -12,7 +12,7 @@ function randomm(min , max){
 for (let i = 0 ; i < size ; i++){
   let star = document.createElement('div');
   
-  let o_size = randomm(.1,4) ;
+  let o_size = randomm(8,10) ;
   let o_co = `rgba(255,255,255,${randomm(.02,.8)})` ;
   
   star.style.position = 'relative' ;
@@ -30,7 +30,7 @@ for (let i = 0 ; i < size ; i++){
       { opacity : 0  } ,
       { opacity : 1  }
     ],{
-      duration : randomm(900,3000) ,
+      duration : randomm(1000,2000) ,
       easing : 'linear' ,
       iterations : Infinity , 
       direction : 'alternate'
