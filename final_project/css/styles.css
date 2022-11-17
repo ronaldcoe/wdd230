@@ -194,6 +194,7 @@ p {
     }
     .quote p {
         width: 100%;
+        font-size: 30px;
     }
     .quote {
        position: relative;
