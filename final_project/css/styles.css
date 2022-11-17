@@ -180,7 +180,7 @@ p {
     
 }
 
-@media screen and (width:414px) {
+@media screen and (max-width:614px) {
     .prince img {
         width: 500px;
     }
