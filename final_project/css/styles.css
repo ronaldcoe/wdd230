@@ -26,6 +26,11 @@ a {
 
     
 }
+h3 {
+    font-family: var(--paragraph);
+    color: aliceblue;
+    text-align: center;
+}
 .background {
     width: 100%;
     height: 100vh;
@@ -178,13 +183,33 @@ p {
     position: absolute;
     top: 100px;
     left: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
+    font-family: var(--paragraph);
+
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 70px;
     
 }
 
+
+
+
+
+
+/* ------------------------------ Characthers ------------------------------ */
+.characterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.characterContainer div {
+    width: fit-content;
+
+}
+.characterContainer div img {
+    width: 245px;
+}
 @media screen and (max-width:614px) {
     .prince img {
         width: 500px;

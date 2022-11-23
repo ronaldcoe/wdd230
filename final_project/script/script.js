@@ -38,6 +38,9 @@ for (let i = 0 ; i < size ; i++){
   container.appendChild(star) ;
 }
 
+
+
+
 // document.body.addEventListener('mousemove',(e)=>{
 //   cursor.style.left = (e.pageX - 100) + 'px' ;
 //   cursor.style.top = (e.pageY - 100) + 'px' ;
