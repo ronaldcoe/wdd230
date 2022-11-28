@@ -14,6 +14,9 @@
     
 
 }
+button {
+    cursor: pointer;
+}
 h1 {
     color: black;
     font-family: var(--headerFont);
@@ -256,6 +259,7 @@ footer {
     background-color: var(--blue);
     text-align: center;
     box-sizing: border-box;
+    margin-top: 100px;
     
 }
 
@@ -323,7 +327,9 @@ footer {
     font-size: 30px;
     font-weight: bold;
 }
-
+.contact {
+    margin-top: 30px;
+}
 footer a {
     color: var(--yellow);
 }
@@ -418,8 +424,12 @@ footer p {
 
 #directory {
     max-width: 1600px;
+    margin-bottom: 100px;
 }
-
+#directory h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
 .directory_btn {
   
     text-align: center;
