@@ -154,7 +154,7 @@ footer {
 @media only screen and (max-width: 900px) {
 
     body {
-        height: 200vh;
+        height: 130vh;
         overflow-y: scroll;
     }
     .container{
