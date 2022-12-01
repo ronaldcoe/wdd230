@@ -1,4 +1,4 @@
-const charactersURL = "../script/characters.json";
+const charactersURL = "./script/characters.json";
 
 
 
