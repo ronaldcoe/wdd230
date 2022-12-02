@@ -46,8 +46,28 @@
         },
         {
             "name":"The Lamplighter",
-            "icon":"./img/businessman.png",
+            "icon":"./img/thelamplighter.png",
             "description":"The fifth and most complex figure the prince encounters before landing on Earth. At first, the lamplighter appears to be yet another ridiculous character with no real purpose, but his selfless devotion to his orders earns him the little prince’s admiration. Of all the adults the little prince encounters before reaching Earth, the lamplighter is the only one the prince thinks he could befriend."
+        },
+        {
+            "name":"The Geographer",
+            "icon":"./img/thegeographer.png",
+            "description":"The sixth and final character the little prince encounters before he lands on Earth. Although the geographer is apparently well-read, he refuses to learn about his own planet, saying it is a job for explorers. He recommends that the little prince visit Earth, and his comments on the ephemeral nature of flowers reveal to the prince that his own flower will not last forever."
+        },
+        {
+            "name":"The Railway Switchman",
+            "icon":"./img/railwayman.png",
+            "description":"The railway switchman works at the hub for the enormous trains that rush back and forth carrying dissatisfied adults from one place to the other. He has more perspective on life than the unhappy, thoughtless passengers his trains ferry. He agrees with the prince that the children are the only ones who appreciate and enjoy the beauty of the train rides."
+        },
+        {
+            "name":"The Three-Petaled Flower",
+            "icon":"./img/threepetaled.png",
+            "description":"The three-petaled flower lives alone in the desert, watching the occasional caravan pass by. She mistakenly informs the prince that there are only a handful of men in the world and that their lack of roots means they are often blown along."
+        },
+        {
+            "name":"The Turkish Astronomer",
+            "icon":"./img/turkish.png",
+            "description":"The first human to discover the prince’s home, Asteroid B-612. When the Turkish astronomer first presents his discovery, no one believes him on account of his Turkish costume. Years later, he makes the same presentation wearing Western clothes, and his discovery is well received. The scientific community’s treatment of the Turkish astronomer reveals that ignorance propels xenophobia (a fear or hatred of foreigners) and racism."
         }
     ]
 }

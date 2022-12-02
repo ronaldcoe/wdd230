@@ -40,13 +40,16 @@ h3 {
     /* background-image: url("/img/2824105.png"); */
     background-size: cover;
     overflow-y: hidden;
-
-
-    
-
-
 }
-
+.backgroundPages {
+    background: rgb(56,38,79);
+    background: linear-gradient(0deg, rgba(56,38,79,1) 0%, rgba(0,1,19,1) 100%);
+}
+.contentPages {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 20px;
+}
 #container{
     height : 100% ;
     width : 100% ;
