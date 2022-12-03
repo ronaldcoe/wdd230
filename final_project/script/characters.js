@@ -10,8 +10,22 @@ function displayCharacters(characters) {
     let div = document.createElement("div");
     let h3 = document.createElement("h3");
     let img = document.createElement("img")
+    function displayName() {
 
-    div.addEventListener("click", displayName(characters))
+        let chracterInfo = document.querySelector(".characterInfo");
+        chracterInfo.textContent = ""
+        let h2 = document.createElement("h2");
+        let img = document.createElement("img");
+        let p = document.createElement("p")
+        h2.textContent = characters.name
+        img.src = characters.image
+        p.textContent = characters.description
+        chracterInfo.appendChild(h2)
+        chracterInfo.appendChild(img)
+        chracterInfo.appendChild(p)
+       
+    }
+    div.addEventListener("click", displayName)
     h3.textContent = characters.name
     img.src = characters.icon
     div.appendChild(img)
@@ -20,9 +34,7 @@ function displayCharacters(characters) {
 
 }
 
-function displayName(characters) {
-    console.log(characters.name)
-}
+
 async function getCharacters(url) {
     const response = await fetch(url);
 

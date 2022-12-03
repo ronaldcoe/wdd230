@@ -3,71 +3,85 @@
         {
             "name":"The Prince",
             "icon":"./img/littleprince.png",
-            "description": "One of the two protagonists of the story. After leaving his home planet and his beloved rose, the prince journeys around the universe, ending up on Earth. Frequently perplexed by the behavior of grown-ups, the prince symbolizes the hope, love, innocence, and insight of childhood that lie dormant in all of us. Though the prince is sociable and meets a number of characters as he travels, he never stops loving and missing the rose on his home planet."
+            "description": "One of the two protagonists of the story. After leaving his home planet and his beloved rose, the prince journeys around the universe, ending up on Earth. Frequently perplexed by the behavior of grown-ups, the prince symbolizes the hope, love, innocence, and insight of childhood that lie dormant in all of us. Though the prince is sociable and meets a number of characters as he travels, he never stops loving and missing the rose on his home planet.",
+            "image":"https://compote.slate.com/images/9fd5a80b-d293-4ab6-a211-5fd7a80f7858.jpg"
         },
         {
             "name":"The Rose",
             "icon":"./img/rose.png",
-            "description": "A coquettish flower who has trouble expressing her love for the little prince and consequently drives him away. Simultaneously vain and naïve, she informs the little prince of her love for him too late to persuade him to stay home and not to travel. Throughout the story, she occupies the prince’s thoughts and heart."
+            "description": "A coquettish flower who has trouble expressing her love for the little prince and consequently drives him away. Simultaneously vain and naïve, she informs the little prince of her love for him too late to persuade him to stay home and not to travel. Throughout the story, she occupies the prince’s thoughts and heart.",
+            "image": "https://www.blog.lepetitprince.com/wp-content/uploads/2008/actu2010_grose3.jpg"
         },
         {
             "name":"The Fox",
             "icon":"./img/fox.png",
-            "description":"Although the fox asks the little prince to tame him, the fox is in some ways the more knowledgeable of the two characters, and he helps steer the prince toward what is important in life. In the secret the fox tells the little prince before they say their good-byes, the fox sums up three important lessons: only the heart can see correctly; the prince’s time away from his planet has made him appreciate his rose more; and love entails responsibility."
+            "description":"Although the fox asks the little prince to tame him, the fox is in some ways the more knowledgeable of the two characters, and he helps steer the prince toward what is important in life. In the secret the fox tells the little prince before they say their good-byes, the fox sums up three important lessons: only the heart can see correctly; the prince’s time away from his planet has made him appreciate his rose more; and love entails responsibility.",
+            "image": "https://i1.sndcdn.com/artworks-000150942149-fbs6x8-t500x500.jpg"
         },
         {
             "name":"The Snake",
             "icon":"./img/snake.png",
-            "description":"The first character the prince meets on Earth, who ultimately sends the prince back to the heavens by biting him. A constant enigma, the snake speaks in riddles and evokes the snake of the Bible, which incites Adam and Eve’s eviction from Eden by luring them into eating the forbidden fruit."
+            "description":"The first character the prince meets on Earth, who ultimately sends the prince back to the heavens by biting him. A constant enigma, the snake speaks in riddles and evokes the snake of the Bible, which incites Adam and Eve’s eviction from Eden by luring them into eating the forbidden fruit.",
+            "image": "https://www.blog.lepetitprince.com/wp-content/uploads/2008/actu2010_gserpent_final2.jpg"
         },
         {
             "name":"The Baobabs",
             "icon":"./img/TheBaobabs.png",
-            "description":"Baobabs, harmless trees on Earth, pose a great threat to smaller planets like the prince’s if left unchecked. They can squeeze whole planets to pieces with their roots. Although baobabs have no malicious opinions or intentions, they represent the grave danger that can befall people who are too lazy or indifferent to keep a wary eye on the world around them."
+            "description":"Baobabs, harmless trees on Earth, pose a great threat to smaller planets like the prince’s if left unchecked. They can squeeze whole planets to pieces with their roots. Although baobabs have no malicious opinions or intentions, they represent the grave danger that can befall people who are too lazy or indifferent to keep a wary eye on the world around them.",
+            "image": "https://i.pinimg.com/originals/e8/9b/08/e89b08a3036c2b3ca011b2206ea60244.jpg"
         },
         {
             "name":"The King",
             "icon":"./img/king.png",
-            "description":"On the first planet the little prince visits, he encounters a king who claims to rule the entire universe. While not unkindly, the king’s power is empty. He is able to command people to do only what they already would do."
+            "description":"On the first planet the little prince visits, he encounters a king who claims to rule the entire universe. While not unkindly, the king’s power is empty. He is able to command people to do only what they already would do.",
+            "image": "http://2.bp.blogspot.com/-IfY2bYOynqE/Ue8bK3sWp_I/AAAAAAAAAG0/ahYjQljJ4EE/s1600/littleprince.jpg"
         }, {
             "name":"The Vain Man",
             "icon":"./img/vainman.png",
-            "description":"The sole resident of the second planet the little prince visits. The vain man is lonely and craves admiration from all who pass by. However, only by being alone is he assured of being the richest and best-looking man on his planet."
+            "description":"The sole resident of the second planet the little prince visits. The vain man is lonely and craves admiration from all who pass by. However, only by being alone is he assured of being the richest and best-looking man on his planet.",
+            "image": "https://images.squarespace-cdn.com/content/v1/5b681ecd3917eeea09becd4e/1544235735238-G1JE74GZZL7W92KZX5NJ/The%2BConceited%2BMan%2B2.png"
         },
         {
             "name":"The Drunkard",
             "icon":"./img/drunkard.png",
-            "description":"The third person the little prince encounters after leaving home is a drunkard, who spends his days and nights lost in a stupor. The drunkard is a sad figure, but he is also foolish because he drinks to forget that he is ashamed of drinking."
+            "description":"The third person the little prince encounters after leaving home is a drunkard, who spends his days and nights lost in a stupor. The drunkard is a sad figure, but he is also foolish because he drinks to forget that he is ashamed of drinking.",
+            "image": "https://images.squarespace-cdn.com/content/v1/5b681ecd3917eeea09becd4e/1544235149235-KUOVJWOFOHZ38SR30UQR/6-%2BThe%2BDrunkard.png"
         },
         {
             "name":"The Businessman",
             "icon":"./img/businessman.png",
-            "description":"A caricature of grown-ups who is the fourth person the little prince visits. Too busy even to greet his visitor, the businessman owns all the stars. Yet he cannot remember what they are called and contributes nothing to them. Although the little prince comments on the oddity of the grown-ups he meets, the businessman is the only character the prince actively chastises."
+            "description":"A caricature of grown-ups who is the fourth person the little prince visits. Too busy even to greet his visitor, the businessman owns all the stars. Yet he cannot remember what they are called and contributes nothing to them. Although the little prince comments on the oddity of the grown-ups he meets, the businessman is the only character the prince actively chastises.",
+            "image": "https://images.squarespace-cdn.com/content/v1/5b681ecd3917eeea09becd4e/1589961083762-X1J37WE8ZXELY96PPJBR/Businessman+30+comp+2.jpg"
         },
         {
             "name":"The Lamplighter",
             "icon":"./img/thelamplighter.png",
-            "description":"The fifth and most complex figure the prince encounters before landing on Earth. At first, the lamplighter appears to be yet another ridiculous character with no real purpose, but his selfless devotion to his orders earns him the little prince’s admiration. Of all the adults the little prince encounters before reaching Earth, the lamplighter is the only one the prince thinks he could befriend."
+            "description":"The fifth and most complex figure the prince encounters before landing on Earth. At first, the lamplighter appears to be yet another ridiculous character with no real purpose, but his selfless devotion to his orders earns him the little prince’s admiration. Of all the adults the little prince encounters before reaching Earth, the lamplighter is the only one the prince thinks he could befriend.",
+            "image": "https://cdnb.artstation.com/p/assets/images/images/005/991/889/large/sarah-ward-img-1775.jpg?1495224464"
         },
         {
             "name":"The Geographer",
             "icon":"./img/thegeographer.png",
-            "description":"The sixth and final character the little prince encounters before he lands on Earth. Although the geographer is apparently well-read, he refuses to learn about his own planet, saying it is a job for explorers. He recommends that the little prince visit Earth, and his comments on the ephemeral nature of flowers reveal to the prince that his own flower will not last forever."
+            "description":"The sixth and final character the little prince encounters before he lands on Earth. Although the geographer is apparently well-read, he refuses to learn about his own planet, saying it is a job for explorers. He recommends that the little prince visit Earth, and his comments on the ephemeral nature of flowers reveal to the prince that his own flower will not last forever.",
+            "image": "https://images.squarespace-cdn.com/content/v1/5b681ecd3917eeea09becd4e/1589453197174-DEBZVE8845KJ323MOFAK/Geographer+angle+haut.jpg"
         },
         {
             "name":"The Railway Switchman",
             "icon":"./img/railwayman.png",
-            "description":"The railway switchman works at the hub for the enormous trains that rush back and forth carrying dissatisfied adults from one place to the other. He has more perspective on life than the unhappy, thoughtless passengers his trains ferry. He agrees with the prince that the children are the only ones who appreciate and enjoy the beauty of the train rides."
+            "description":"The railway switchman works at the hub for the enormous trains that rush back and forth carrying dissatisfied adults from one place to the other. He has more perspective on life than the unhappy, thoughtless passengers his trains ferry. He agrees with the prince that the children are the only ones who appreciate and enjoy the beauty of the train rides.",
+            "image": "https://justsimplyinlove.files.wordpress.com/2012/02/switchman.jpg"
         },
         {
             "name":"The Three-Petaled Flower",
             "icon":"./img/threepetaled.png",
-            "description":"The three-petaled flower lives alone in the desert, watching the occasional caravan pass by. She mistakenly informs the prince that there are only a handful of men in the world and that their lack of roots means they are often blown along."
+            "description":"The three-petaled flower lives alone in the desert, watching the occasional caravan pass by. She mistakenly informs the prince that there are only a handful of men in the world and that their lack of roots means they are often blown along.",
+            "image": "https://i.pinimg.com/originals/1a/a0/87/1aa0875e316767df803c65f9a4c19f06.jpg"
         },
         {
             "name":"The Turkish Astronomer",
             "icon":"./img/turkish.png",
-            "description":"The first human to discover the prince’s home, Asteroid B-612. When the Turkish astronomer first presents his discovery, no one believes him on account of his Turkish costume. Years later, he makes the same presentation wearing Western clothes, and his discovery is well received. The scientific community’s treatment of the Turkish astronomer reveals that ignorance propels xenophobia (a fear or hatred of foreigners) and racism."
+            "description":"The first human to discover the prince’s home, Asteroid B-612. When the Turkish astronomer first presents his discovery, no one believes him on account of his Turkish costume. Years later, he makes the same presentation wearing Western clothes, and his discovery is well received. The scientific community’s treatment of the Turkish astronomer reveals that ignorance propels xenophobia (a fear or hatred of foreigners) and racism.",
+            "image": "https://lrb-website-production-assets.s3.eu-west-2.amazonaws.com/images/3/9/8/6/156893-1-eng-GB/turkish-astronomer.jpg"
         }
     ]
 }
