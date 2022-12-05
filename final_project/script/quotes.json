@@ -2,47 +2,49 @@
     "quotes": [
         {
             "quote":"“You become responsible, forever, for what you have tamed.”",
-            "author":"The Fox"
+            "author":"The Fox",
+            "image": "https://i1.sndcdn.com/artworks-000150942149-fbs6x8-t500x500.jpg"
         },
         {
             "quote":"“But the conceited man did not hear him. Conceited people never hear anything but praise.”",
-            "author":"The Vain Man"
+            "author":"The Vain Man",
+            "image": "https://www.jmlalonde.com/wp-content/uploads/2018/04/the-little-prince-conceited-man.jpg"
         },
         {
             "quote":"“Where are the people?” resumed the little prince at last. “It’s a little lonely in the desert…” “It is lonely when you’re among people, too,” said the snake.”",
-            "author":"The Fox"
-        },
-        {
-            "quote":"“You become responsible, forever, for what you have tamed.”",
-            "author":"The Little Prince - The Snake"
+            "author":"The Little Prince - The Snake",
+            "image": "https://img.huffingtonpost.com/asset/588046b81700008a0192af58.jpg?ops=scalefit_720_noupscale&format=webp"
+
         },
         {
             "quote":"“Only the children know what they are looking for.”",
-            "author":"The Little Prince"
+            "author":"The Little Prince",
+            "image":"https://149349728.v2.pressablecdn.com/wp-content/uploads/2019/03/1*8Cc5pNEI0wJvkat3hNissA.jpeg"
         },
         {
             "quote":"“But the eyes are blind. One must look with the heart.”",
-            "author":"The Little Prince"
+            "author":"The Little Prince",
+            "image":"https://static01.nyt.com/images/2016/08/05/arts/05LITTLEPRINCE2/05LITTLEPRINCE2-videoSixteenByNineJumbo1600.jpg"
         },
         {
             "quote":"“And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.”",
-            "author":"The Fox"
+            "author":"The Fox",
+            "image":"https://www.pngitem.com/pimgs/m/146-1460626_little-prince-fox-wheat-png-download-fox-painting.png"
         },
         {
             "quote":"“The most beautiful things in the world cannot be seen or touched, they are felt with the heart.”",
-            "author":"The Fox"
-        },
-        {
-            "quote":"“No one is ever satisfied where he is.”",
-            "author":"The Railway Switchman"
+            "author":"The Fox",
+            "image":"https://www.nicepng.com/png/detail/229-2297902_go-to-image-little-prince-movie-fox.png"
         },
         {
             "quote":"“People where you live,” the little prince said, “grow five thousand roses in one garden... Yet they don’t find what they’re looking for... And yet what they’re looking for could be found in a single rose.”",
-            "author":"The Little Prince"
+            "author":"The Little Prince",
+            "image":"https://i.cbc.ca/1.4943312.1545068826!/fileImage/httpImage/the-little-prince-illustration.jpg"
         },
         {
             "quote":"“The proof that the little prince existed is that he was charming, that he laughed, and that he was looking for a sheep. If anybody wants a sheep, that is a proof that he exists.”",
-            "author":"The Little Prince"
+            "author":"The Little Prince",
+            "image":"https://www.gannett-cdn.com/-mm-/a29caffa57207f139b5640507296eb1c634baceb/c=212-0-1469-710/local/-/media/2016/08/02/USATODAY/USATODAY/636057395492260384-XXX-XXX-IMG-WTW-LITTLEPRINCE02-0-1-1-J5AIMOOU-82209400.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp"
         }
     ]
 }
