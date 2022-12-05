@@ -152,11 +152,10 @@ p {
 
 .logo {
     font-family: 'Pacifico', cursive;
-    background: #F6A822;
-    background: linear-gradient(to top, #F6A822 0%, #9E7F43 100%);
+    background: #9E7F43;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
   
     
@@ -436,6 +435,9 @@ footer {
     .prince img {
         width: 500px;
     }
+    .logo {
+        font-size: 25px;
+    }
     .nav {
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -509,7 +511,18 @@ footer {
     .book {
         flex-direction: column;
     }
-    
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero img {
+        height: 150px;
+    }
+    .characterContainer {
+        height: 200px;
+    }
+    .characterContainer div img {
+        width: 150px;
+    }
 
 }
 
