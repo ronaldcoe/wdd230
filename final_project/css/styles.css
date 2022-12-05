@@ -429,7 +429,88 @@ footer {
     color: #fff;
     text-decoration: none;
   }
+
+/*----------------------------- Trivia ------------------------------*/
+
+
+#scoreDisplay {
+    text-align: center;
+    font-family: var(--paragraph);
+    color: #9E7F43;
+    font-size: 30px;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+   
+    border-radius:5px;
   
+    padding:15px;
+
+    float:right;
+    background-color: #9E7F43;
+    color: white;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #9E7F43;
+    color: #1f1f1f;
+}
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#trivia {
+    width:50%;
+    min-height: 500px;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #ffffff;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#trivia ul {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+#trivia ul li {
+    padding: 0px;
+}
+#trivia h2 {
+    text-align: left;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+#trivia p {
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
 
 @media screen and (max-width:614px) {
     .prince img {
@@ -496,7 +577,7 @@ footer {
         margin-bottom: 10px;
       }
     .columns {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     i {
         display: block !important;
@@ -523,6 +604,9 @@ footer {
     .characterContainer div img {
         width: 150px;
     }
-
+    #trivia {
+        width: 100%;
+        height: 550px;
+    }
 }
 

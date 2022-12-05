@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Little Prince</title>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
    
 </head>
@@ -19,26 +19,35 @@
                     <a href="./quotes.html"><li>Quotes</li></a>
                     <a href="./art.html"><li>Art</li></a>
                     <a href="./book.html"><li>Book</li></a>
-                    <a href="./reviews.html"><li>Reviews</li></a>
+                    <a href="./trivia.html"><li>Reviews</li></a>
                 </ul>
                 <i class="fa-solid fa-bars"></i>
             </nav>
             <div class="hero">
-                <h1>Reviews</h1>
+                <h1>Trivia</h1>
                 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b936d038-75f2-4888-9b8e-59876541fe19/d6kxe9y-0813810f-478d-41cf-b4b5-bd2a157c2ddd.jpg/v1/fill/w_900,h_563,q_75,strp/the_little_prince_by_marilucia_d6kxe9y-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvYjkzNmQwMzgtNzVmMi00ODg4LTliOGUtNTk4NzY1NDFmZTE5XC9kNmt4ZTl5LTA4MTM4MTBmLTQ3OGQtNDFjZi1iNGI1LWJkMmExNTdjMmRkZC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2iCxr7DSM2fYnd0KOYHZd7u5Nfcx3dJG3qamRKtxIBg" alt="banner">
             </div>
             <div class="main">
-                <div class="quotesContainer"></div>
-                
+                <div id="scoreDisplay"></div>
+                <div id="trivia">
+                    <div id='title'>
+                        
+                    </div>
+                       <br/>
+                      <div id='quiz'></div>
+                    <div class='button' id='next'><a href='#'>Next</a></div>
+                    <div class='button' id='prev'><a href='#'>Prev</a></div>
+                    <div class='button' id='start'> <a href='#'>Start Over</a></div>
+                </div>
            
             </div>
         </div>
     </div>
     <footer>
-        Develop with ❤️ by Ronald Coello
+        Developed with ❤️ by Ronald Coello
     </footer>
-    <script src="./navbar"></script>
-    <script src="./script/quotes.js"></script>
+    <script src="./script/navbar"></script>
+    <script src="./script/trivia.js"></script>
     <script src="https://kit.fontawesome.com/79df2091f5.js" crossorigin="anonymous"></script>
 </body>
 </html>
