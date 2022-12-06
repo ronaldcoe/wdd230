@@ -12,12 +12,12 @@ a {
     text-decoration: none;
 }
 .home {
-    overflow-y: hidden;
+
     overflow-x: hidden;
 }
 .content {
     max-width: 1400px;
-    height: 100vh;
+    height: 100%;
     position: relative;
     overflow-y:hidden;
     margin: auto;
@@ -26,11 +26,7 @@ a {
 
     
 }
-body {
 
-    background: linear-gradient(0deg, rgba(56,38,79,1) 0%, rgba(0,1,19,1) 100%);
-
-}
 i {
     color: #9E7F43;
     font-size: 30px; 
@@ -51,13 +47,13 @@ h3 {
 }
 .background {
     width: 100%;
-    height: 100vh;
+    height: 550px;
     background: rgb(56,38,79);
     background: linear-gradient(0deg, rgba(56,38,79,1) 0%, rgba(0,1,19,1) 100%);
     /* background: linear-gradient(0deg, rgb(233, 167, 26) 0%, rgb(255, 94, 0) 100%); */
     /* background-image: url("/img/2824105.png"); */
     background-size: cover;
-    overflow-y: hidden;
+
 }
 .backgroundPages {
 
@@ -71,7 +67,7 @@ h3 {
     background-color: white;
 }
 #container{
-    height : 100% ;
+    height : inherit ;
     width : 100% ;
     
     overflow-y : hidden ;
@@ -82,6 +78,8 @@ h3 {
     animation-timing-function: cubic-bezier();
     overflow-x: hidden;
     margin: auto;
+    bottom: 0px;
+    margin-top: 50px;
 }
 .a_star{
 transition-duration : .5s ;
@@ -114,20 +112,28 @@ transition-duration : .5s ;
 
 
 nav {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    justify-content: space-between;
-    padding-top: 20px;
-    align-items: center;
+    
+    background-color: white;
+    height: 70px;
 
 }
-ul {
+nav div {
+    display: grid;
+    grid-template-columns: auto 4fr;
+    justify-items: center;
+    height: 70px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 70%;
-    align-items: end;
+    justify-content: end;;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
 }
+
 ul li {
     color: #9E7F43;
     display: block;
@@ -136,7 +142,8 @@ ul li {
     font-weight: bold;
     height: 50px;
     align-items: center;
-    padding: 20px;
+    height: fit-content;
+
 
     
 }
@@ -172,15 +179,13 @@ p {
 }
 
 .prince img {
-    width: 100vh;
+    width: 700px;
 }
 .quote {
-    position: absolute;
-    left: 20px;
-    top: calc(100vh/3);
+    margin-top: 200px;
 }
 .quote p {
-    font-size: 50px;
+    font-size: 30px;
     width: 600px;
     
 }
