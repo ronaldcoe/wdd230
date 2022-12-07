@@ -719,6 +719,9 @@ ul {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .spaceSection {
+        margin-top: 80px;
+    }
    
     .prince img {
         width: 350px;
@@ -758,7 +761,7 @@ ul {
     }
     .carousel {
         width: 100%;
-        height: 800px;
+        height: 550px;
     }
     .carouselimg img{
         width: 100%;
