@@ -770,7 +770,7 @@ ul {
     .cardcarousel {
         grid-template-columns: 1fr;
         grid-template-rows: 100px 1fr;
-        width: 335px;
+        width: 100vw;
         max-height: 550px;
     }
     .cardcarouseldes h2 {
