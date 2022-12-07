@@ -7,6 +7,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    padding: 0px;
 }
 a {
     text-decoration: none;
@@ -67,8 +68,8 @@ a {
 }
 
 .contentTvshow {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
 nav i {
@@ -102,11 +103,11 @@ h3 {
 
 }
 .cards {
-    max-width: 500px;
+    width: 100%;
 }
 .cardpara {
     background-color: #b1c2ff;
-
+    height: 250px;
     padding: 20px;
 }
 .aboutDescription  h3{
@@ -649,6 +650,7 @@ ul {
     }
     .aboutimage {
         padding: 0px;
+        height: auto;
     }
     .aboutimage img{
         width: 100%;
@@ -658,7 +660,8 @@ ul {
        top: -100px;
     }
     .contentTvshow {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
     .characterInfo {
         grid-template-columns: 1fr;
