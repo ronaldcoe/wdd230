@@ -26,14 +26,60 @@ a {
 
     
 }
+.para {
+    font-size: 20px;
+    color: #353535;
+    line-height: 40px;
+}
+.spaceSection {
+    margin-top: 200px;
+}
+.title {
+    font-size: 60px;
+    text-align: left;
 
-i {
+}
+.space {
+    margin-top: 50px;
+}
+.tvshow {
+    padding-top: 50px;
+}
+.tvshowicon {
+    font-size: 40px;
+    color: #9E7F43;
+}
+.tvshowdes {
+    font-size: 20px;
+}
+.tvimage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tvfacts {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.contentTvshow {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+nav i {
     color: #9E7F43;
     font-size: 30px; 
     display: none !important;
 }
 .main {
     margin-top: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 h2 {
     font-family: var(--paragraph);
@@ -54,6 +100,30 @@ h3 {
     /* background-image: url("/img/2824105.png"); */
     background-size: cover;
 
+}
+.cards {
+    max-width: 500px;
+}
+.cardpara {
+    background-color: #b1c2ff;
+
+    padding: 20px;
+}
+.aboutDescription  h3{
+    text-align: left;
+    font-size: 30px;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+}
+.aboutimage {
+    background-color: #9E7F43;
+    padding: 20px 0px 0px 20px;
+    height: 300px;
 }
 .backgroundPages {
 
@@ -120,7 +190,6 @@ nav {
 nav div {
     display: grid;
     grid-template-columns: auto 4fr;
-    justify-items: center;
     height: 70px;
     align-items: center;
     max-width: 1400px;
@@ -182,10 +251,10 @@ p {
     width: 700px;
 }
 .quote {
-    margin-top: 200px;
+    margin-top: 130px;
 }
 .quote p {
-    font-size: 30px;
+    font-size: 45px;
     width: 600px;
     
 }
@@ -229,7 +298,8 @@ footer {
     font-family: var(--paragraph);
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    height: 100px;
+    background-color: rgb(56,38,79);
 }
 
 *::-webkit-scrollbar {
@@ -243,10 +313,41 @@ footer {
 *::-webkit-scrollbar-thumb {
     background: rgba(136, 136, 136, 0.404);
     border-radius: 10px;
-  }
+}
+.facts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.facts div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+.facts p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.facts .factspicture {
+    height: 200px;
+    width: 100%;
+    
+}
+.facts img {
+    border-radius: 999px;
+    width:200px;
+    margin: 0 auto;
+}
+.facts i {
+    font-size: 80px;
+    color: #5378ff;
 
-
-
+}
 
 /* ------------------------------ Characthers ------------------------------ */
 .characterContainer {
@@ -518,6 +619,10 @@ ul {
 }
 
 @media screen and (max-width:614px) {
+    .sideSpace {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .prince img {
         width: 500px;
     }
@@ -536,11 +641,24 @@ ul {
     }
     .quote p {
         width: 100%;
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .aboutimage {
+        padding: 0px;
+    }
+    .aboutimage img{
+        width: 100%;
     }
     .quote {
        position: relative;
-       top: 100px;
+       top: -100px;
+    }
+    .contentTvshow {
+        flex-direction: column;
     }
     .characterInfo {
         grid-template-columns: 1fr;
@@ -584,7 +702,7 @@ ul {
     .columns {
         grid-template-columns: 1fr;
     }
-    i {
+    nav i {
         display: block !important;
         color: #9E7F43;
         font-size: 30px;
