@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <nav>
+    <nav class="sideSpace">
         <div>
-            <h1 class="logo">The Little Prince</h1>
-            <ul>
+            <a href="./"><img src="./img/logo.svg" class="logo" alt="logo"></a>
+            <ul id="menuBig">
                 <a href="./characters.html"><li>Characters</li></a>
                 <a href="./quotes.html"><li>Quotes</li></a>
                 <a href="./art.html"><li>Art</li></a>
@@ -21,6 +21,13 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
+    <ul id="menuSmall" class="sideSpace">
+        <a href="./characters.html"><li>Characters</li></a>
+        <a href="./quotes.html"><li>Quotes</li></a>
+        <a href="./art.html"><li>Art</li></a>
+        <a href="./book.html"><li>Book</li></a>
+        <a href="./trivia.html"><li>Trivia</li></a>
+    </ul>
     <div class="backgroundPages">
         <div class="contentPages">
             <div class="hero">
@@ -34,8 +41,30 @@
             </div>
         </div>
     </div>
-    <footer>
-        Developed with ❤️ by Ronald Coello
+    <footer class="sideSpace">
+        <div class="footerContent">
+            <div id="logofooter">
+                <img src="./img/logofooter.svg" class="logo logofooter" alt="logo">
+            </div>
+            <div class="contact">
+                	
+                CONTACT<br>
+                <br>
+
+                <p>
+                    Le Petit Prince Licensing<br>
+                    57 boulevard arago<br>
+                    75013 Paris<br>
+                    contact@lepetitprince.com<br>
+                </p>
+            </div>
+            <div class="socialMedia">
+                Our Social media <br><br>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            </div>
+        </div>
     </footer>
     <script src="./script/navbar.js"></script>
     <script src="./script/quotes.js"></script>
