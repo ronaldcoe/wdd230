@@ -107,7 +107,7 @@ h3 {
     background: rgb(56,38,79);
     background: linear-gradient(0deg, rgba(56,38,79,1) 0%, rgba(0,1,19,1) 100%);
     /* background: linear-gradient(0deg, rgb(233, 167, 26) 0%, rgb(255, 94, 0) 100%); */
-    /* background-image: url("/img/2824105.png"); */
+    /* background-image: url("https://tinyurl.com/yncrsw6s"); */
     background-size: cover;
 
 }
@@ -306,6 +306,9 @@ p {
 }
 .characterbanner img {
     object-position: center -40px;
+}
+.trivibanner img {
+    object-position: center -90px;
 }
 .artBanner {
     object-position: 0px -7px;

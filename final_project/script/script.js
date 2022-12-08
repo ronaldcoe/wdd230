@@ -3,7 +3,7 @@ const cursor = document.getElementById('cursor') ;
 var wid = parseFloat(getComputedStyle(container).width) ;
 var hei = parseFloat(getComputedStyle(container).height) ;
 
-var size = (wid * hei) / 9500 ;
+var size = (wid * hei) / 9600 ;
 
 function randomm(min , max){
   return min + Math.random() * ( max  - min )
