@@ -1090,6 +1090,9 @@ ul {
 
     }
 
+    .lightbox img {
+        width: 100vw;
+    }
     
     .characterInfo h2 {
         grid-column: 1/2;
