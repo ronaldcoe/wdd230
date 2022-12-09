@@ -43,7 +43,7 @@
     function displayCurrentScore() {
         if (localStorage.getItem('score')) {
             let scoreDisplay = document.querySelector('#scoreDisplay')
-            scoreDisplay.textContent = `Your current score is ${localStorage.getItem('score')}`;
+            scoreDisplay.textContent = `Your previous score was ${localStorage.getItem('score')}`;
         }
     }
     // Display initial question
@@ -129,10 +129,12 @@
       var input = '';
       for (var i = 0; i < questions[index].choices.length; i++) {
         item = $('<li>');
+        label = $('<label>')
         input = '<input type="radio" name="answer" value=' + i + ' />';
         input += questions[index].choices[i];
         item.append(input);
-        radioList.append(item);
+        label.append(item)
+        radioList.append(label);
       }
       return radioList;
     }
