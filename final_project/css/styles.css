@@ -5,6 +5,8 @@
     --titles: 'Roboto Slab', serif;
     --paragraph: 'Nunito', sans-serif
 }
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -80,8 +82,12 @@ a {
     color: #353535;
     line-height: 40px;
 }
+
 .spaceSection {
     margin-top: 100px;
+}
+.extraMarginTop {
+    margin-top: 200px;
 }
 .title {
     font-size: 60px;
@@ -957,6 +963,9 @@ ul {
     }
     .spaceSection {
         margin-top: 40px;
+    }
+    .extraMarginTop {
+        margin-top: 150px;
     }
    
     .prince img {
