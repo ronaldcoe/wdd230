@@ -167,7 +167,7 @@ h3 {
 }
 .cardpara {
     background-color: #b1c2ff;
-    height: 250px;
+
     padding: 20px;
 }
 .aboutDescription  h3{
@@ -954,7 +954,12 @@ ul {
     #menuSmall li:hover a {
         color: white;
     }
-
+    .prince img {
+        width: 600px;
+    }
+    .quote h2 {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width:740px) {
     .sideSpace {
