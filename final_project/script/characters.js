@@ -121,3 +121,5 @@ const mouseDownHandler = function (e){
 
 carousel.addEventListener("mousedown", mouseDownHandler)
 // carousel.removeEventListener("mouseup", mouseUpHandler)
+
+

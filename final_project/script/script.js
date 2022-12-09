@@ -55,3 +55,24 @@ for (let i = 0 ; i < size ; i++){
 // p_max_Left = window.innerWidth - target.parentNode.offsetLeft ;
 // key = 90 / ( p_max_Left - p_min_Left ) ;
 // num = (e_Left * key) + ((e_Left - p_min_Left) * key) ;
+
+
+
+
+let card = document.querySelector('.carousel')
+
+function stop () {
+    let cards = document.querySelectorAll('.cardcarousel')
+    cards.forEach(card => {card.style.animationPlayState = "paused"})
+    console.log("hello")
+}
+
+function continueAnimation () {
+  let cards = document.querySelectorAll('.cardcarousel')
+
+  cards.forEach(card => { card.style.animationPlayState = "running"})
+}
+card.addEventListener("mouseover", stop)
+card.addEventListener("mouseout", continueAnimation)
+
+console.log("stop pleae")

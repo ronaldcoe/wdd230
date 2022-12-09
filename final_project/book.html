@@ -35,30 +35,80 @@
         </div>
         <div class="contentPages">
             
-            <div class="main">
+            <div class="main space">
                 <div class="book">
-                    <img src="https://m.media-amazon.com/images/I/41Su1GeNc8L._AC_SY780_.jpg">
-                    <div>
-                        <p>
-                            Now with the restored original artwork, the beloved classic story of a young prince's travels throughout space. A profound tale about loneliness and loss, and love and friendship.
-    
-                            A pilot crashes in the Sahara Desert and encounters a strange young boy who calls himself the Little Prince. The Little Prince has traveled there from his home on a lonely, distant asteroid with a single rose. The story that follows is a beautiful and at times heartbreaking meditation on human nature.
-    
-                            The Little Prince is one of the best-selling and most translated books of all time, universally cherished by children and adults alike, and Richard Howard's translation of the beloved classic beautifully reflects Saint-Exupéry's unique and gifted style, bringing the English text as close as possible to the French in language, style, and spirit. In this special edition, the artwork has been restored to match in detail and in color Saint-Exupéry's original artwork.
-    
-                            This definitive English-language edition of The Little Prince will capture the hearts of readers of all ages.
-                            
-                        </p>
-                        <button onclick="window.open('https://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/0156012197','_blank')">Get Book </button>
+                    <div class="spaceSection">
+                        <img src="./img/bookfree.jpg">
+                        <div>
+                            <h2>Book Summary</h2>
+                            <p>
+                                Now with the restored original artwork, the beloved classic story of a young prince's travels throughout space. A profound tale about loneliness and loss, and love and friendship.
+        
+                                A pilot crashes in the Sahara Desert and encounters a strange young boy who calls himself the Little Prince. The Little Prince has traveled there from his home on a lonely, distant asteroid with a single rose. The story that follows is a beautiful and at times heartbreaking meditation on human nature.
+        
+                                The Little Prince is one of the best-selling and most translated books of all time, universally cherished by children and adults alike, and Richard Howard's translation of the beloved classic beautifully reflects Saint-Exupéry's unique and gifted style, bringing the English text as close as possible to the French in language, style, and spirit. In this special edition, the artwork has been restored to match in detail and in color Saint-Exupéry's original artwork.
+        
+                                This definitive English-language edition of The Little Prince will capture the hearts of readers of all ages.
+                                
+                            </p>
+                            <button class="button" onclick="window.open('https://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/0156012197','_blank')">Buy Book</button>
+                        </div>
                     </div>
+                    
                     
                 </div>
            
             </div>
         </div>
+                    
+                    <div class="formcontent">
+                        
+                        <div class="formcontainer">
+                       
+                            <img src="./img/book.jpg" alt="book">
+                            <form action="./thanks.html">
+                                <h2 style="padding-bottom: 50px;">Want a free sample?</h2>
+                                <label>
+                                    <span>First Name</span>
+                                    <input type="text" name="fname" required>
+                                </label>
+                                <label>
+                                    <span>Last Name</span>
+                                    <input type="text" name="lname" required>
+                                </label>
+                                <label>
+                                    <span>Email</span>
+                                    <input type="email" name="lname" required>
+                                </label>
+                                <button class="button" type="submit">Get Free Sample</button>
+                            </form>
+                        </div>
+                    </div>
     </div>
-    <footer>
-        Developed with ❤️ by Ronald Coello
+    <footer class="spaceSection">
+        <div class="footerContent">
+            <div id="logofooter">
+                <img src="./img/logofooter.svg" class="logo logofooter" alt="logo">
+            </div>
+            <div class="contact">
+                	
+                CONTACT<br>
+                <br>
+
+                <p>
+                    Le Petit Prince Licensing<br>
+                    57 boulevard arago<br>
+                    75013 Paris<br>
+                    contact@lepetitprince.com<br>
+                </p>
+            </div>
+            <div class="socialMedia">
+                Our Social media <br><br>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            </div>
+        </div>
     </footer>
     <script src="./script/navbar.js"></script>
     <script src="./script/quotes.js"></script>
