@@ -1,6 +1,6 @@
 (function() {
     var questions = [{
-      question: "What is Drawing Number One supposed to depict?",
+      question: "#1 What is Drawing Number One supposed to depict?",
       choices: ["An elephant inside a boa constrictor", 
         "The baobabs", 
         "A hat", 
@@ -8,28 +8,28 @@
         ],
       correctAnswer: 0
     }, {
-      question: "Where does the narrator’s plane crash?",
+      question: "#2 Where does the narrator’s plane crash?",
       choices: ["In the Amazon rainforest", 
         "In the Gobi desert", 
         "In the Sahara desert", 
         "On an unnamed island"],
       correctAnswer: 2
     }, {
-      question: "What is the first thing the little prince asks of the pilot?",
+      question: "#3 What is the first thing the little prince asks of the pilot?",
       choices: ["To help him find the snake", 
         "To draw him a sheep", 
         "To listen to the story of the fox", 
         "To draw a picture of the baobabs"],
       correctAnswer: 1
     }, {
-      question: "What is the Earth name for the little prince’s home planet?",
+      question: "#4 What is the Earth name for the little prince’s home planet?",
       choices: ["Mars", 
         "Asteroid", 
         "Earth", 
         "Jupiter"],
       correctAnswer: 1
     }, {
-      question: "What drawing does the narrator say he worked especially hard on?",
+      question: "#5 What drawing does the narrator say he worked especially hard on?",
       choices: ["The little prince", 
         "The fox", 
         "The baobabs", 
@@ -111,7 +111,7 @@
       });
       
       var header = $('<h2>Question ' + (index + 1) + ':</h2>');
-      qElement.append(header);
+      // qElement.append(header);
       
       var question = $('<p>').append(questions[index].question);
       qElement.append(question);
