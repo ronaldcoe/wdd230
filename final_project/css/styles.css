@@ -665,7 +665,7 @@ footer {
     color: #353535;
 }
 .formcontainer img {
-    width: 500px;
+    width: 100%;
     height: 600px;
     object-fit: cover;
 
@@ -888,7 +888,7 @@ ul {
         color: white;
     }
 }
-@media screen and (max-width:614px) {
+@media screen and (max-width:740px) {
     .sideSpace {
         padding-left: 20px;
         padding-right: 20px;
