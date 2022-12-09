@@ -13,10 +13,10 @@ function displayQuotes(quotes) {
     p.textContent = quotes.quote
     img.src = quotes.image
     author.textContent = `- ${quotes.author}`
-    author.style.textAlign = "left"
-    author.style.fontSize = "13px"
-    author.style.marginTop = "10px"
-    author.style.fontStyle = "Italic"
+    // author.style.textAlign = "left"
+    // // author.style.fontSize = "13px"
+    // // author.style.marginTop = "10px"
+    // // author.style.fontStyle = "Italic"
     divText.appendChild(p)
     divText.appendChild(author)
    
