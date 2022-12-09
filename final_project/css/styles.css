@@ -6,7 +6,9 @@
     --paragraph: 'Nunito', sans-serif
 }
 
-
+footer a {
+    color: white;
+}
 * {
     margin: 0;
     box-sizing: border-box;
